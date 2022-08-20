@@ -3,7 +3,190 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI_Layouts.MainPage">
 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0"
+               Text="Row 0, Column 0"
+               HorizontalOptions="Start"
+               />
+        <Label Grid.Row="1" Grid.Column="0"
+               Text="Row 1, Column 0"
+               HorizontalOptions="Center"
+               />
+        <Label Grid.Row="2" Grid.Column="0"
+               Text="Row 1, Column 0"
+               HorizontalOptions="End"
+               />
 
+        <Label Grid.Row="0" Grid.Column="1"
+               Text="Row 0, Column 1"
+               HorizontalOptions="Start"
+               />
+        <Label Grid.Row="1" Grid.Column="1"
+               Text="Row 1, Column 1"
+               HorizontalOptions="Center"
+               />
+        <Label Grid.Row="2" Grid.Column="1"
+               Text="Row 1, Column 1"
+               HorizontalOptions="End"
+               />
+
+
+    </Grid>
+    
+    <!--<FlexLayout VerticalOptions="Start" Direction="Column" >
+
+        <Label Text="MAUI" 
+               BackgroundColor="LightBlue" 
+               TextColor="Black" 
+               TextDecorations="Underline"
+               CharacterSpacing="5" 
+               Padding="10" 
+               FontSize="20"
+               HorizontalTextAlignment="Center"
+               
+               />
+
+
+        <Label Text="Testing"               
+               BackgroundColor="LightCoral" 
+               TextColor="Black" 
+               CharacterSpacing="1" 
+               Padding="10" 
+               FontSize="20"
+               FontAutoScalingEnabled="True"
+               HorizontalTextAlignment="End" 
+               />
+
+        <Button Text="Push" />
+
+    </FlexLayout>-->
+    
+    <!--<AbsoluteLayout >
+
+        <Label Text="MAUI" 
+               BackgroundColor="LightBlue" 
+               TextColor="Black" 
+               TextDecorations="Underline"
+               CharacterSpacing="5" 
+               Padding="10" 
+               FontSize="20"
+               HorizontalTextAlignment="Center"
+               
+               />
+
+
+        <Label Text="Testing"               
+               BackgroundColor="LightCoral" 
+               TextColor="Black" 
+               CharacterSpacing="1" 
+               Padding="10" 
+               FontSize="20"
+               FontAutoScalingEnabled="True"
+               HorizontalTextAlignment="End" 
+               />
+
+        <Button Text="Push" />
+
+    </AbsoluteLayout>-->
+    
+    <!--<StackLayout Margin="10" Spacing="10" BackgroundColor="Blue" Orientation="Vertical" HeightRequest="">
+              
+        <Label Text="MAUI" 
+               BackgroundColor="LightBlue" 
+               TextColor="Black" 
+               TextDecorations="Underline"
+               CharacterSpacing="5" 
+               Padding="10" 
+               FontSize="20"
+               HorizontalTextAlignment="Center"
+               
+               />
+
+
+        <Label Text="Testing"               
+               BackgroundColor="LightCoral" 
+               TextColor="Black" 
+               CharacterSpacing="1" 
+               Padding="10" 
+               FontSize="20"
+               FontAutoScalingEnabled="True"
+               HorizontalTextAlignment="End" 
+               />
+
+        <Button Text="Push" />
+        
+        <Frame>
+            <Button Text="Push" />
+        </Frame>
+
+        <Label Text="Testing"               
+               BackgroundColor="LightCoral" 
+               TextColor="Black" 
+               CharacterSpacing="1" 
+               Padding="10" 
+               FontSize="20"
+               FontAutoScalingEnabled="True"
+               HorizontalTextAlignment="End" 
+               />
+
+        <Label Text="Testing"               
+               BackgroundColor="LightCoral" 
+               TextColor="Black" 
+               CharacterSpacing="1" 
+               Padding="10" 
+               FontSize="20"
+               FontAutoScalingEnabled="True"
+               HorizontalTextAlignment="End" 
+               />
+
+        <Label Text="Testing"               
+               BackgroundColor="LightCoral" 
+               TextColor="Black" 
+               CharacterSpacing="1" 
+               Padding="10" 
+               FontSize="20"
+               FontAutoScalingEnabled="True"
+               HorizontalTextAlignment="End" 
+               />
+
+        <Label Text="Testing"               
+               BackgroundColor="LightCoral" 
+               TextColor="Black" 
+               CharacterSpacing="1" 
+               Padding="10" 
+               FontSize="20"
+               FontAutoScalingEnabled="True"
+               HorizontalTextAlignment="End" 
+               />
+        <Label Text="Testing"               
+               BackgroundColor="LightCoral" 
+               TextColor="Black" 
+               CharacterSpacing="1" 
+               Padding="10" 
+               FontSize="20"
+               FontAutoScalingEnabled="True"
+               HorizontalTextAlignment="End" 
+               />
+        <Label Text="Testing"               
+               BackgroundColor="LightCoral" 
+               TextColor="Black" 
+               CharacterSpacing="1" 
+               Padding="10" 
+               FontSize="20"
+               FontAutoScalingEnabled="True"
+               HorizontalTextAlignment="End" 
+               />
+       
+    </StackLayout>-->
 
 
 </ContentPage>
